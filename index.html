@@ -27,7 +27,7 @@
       <div class="hero min-h-screen bg-[#F9F6E2]">
         <div class="hero-content flex-col md:flex-row-reverse">
           <div class="flex-1">
-            <img src="/images/Summer1.png" class="" />
+            <img src="./images/Summer1.png" class="" />
           </div>
           <div class="space-y-3 lg:space-y-8 flex-1">
             <h2
@@ -65,12 +65,13 @@
           Kitchenware
         </h1>
         <div class="grid md:grid-cols-3 gap-4">
+          <!-- product one -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-4 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-5 rounded-lg h-4/6">
-              <img src="/images/prod1.png" alt="Shoes" class="rounded-lg" />
+              <img src="./images/prod1.png" alt="Shoes" class="rounded-lg" />
             </figure>
             <div class="card-body items-center text-center">
               <div class="rating rating-sm">
@@ -107,12 +108,13 @@
               <p><span>39.00</span> TK</p>
             </div>
           </div>
+          <!-- product two -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-4 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-5 rounded-lg h-4/6">
-              <img src="/images/prod2.png" alt="Shoes" class="rounded-lg" />
+              <img src="./images/prod2.png" alt="Shoes" class="rounded-lg" />
             </figure>
             <div class="card-body items-center text-center">
               <div class="rating rating-sm">
@@ -154,12 +156,13 @@
               <p><span>25.00</span> TK</p>
             </div>
           </div>
+          <!-- product three -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-4 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-5 rounded-lg h-4/6">
-              <img src="/images/prod3.png" alt="Shoes" class="rounded-lg" />
+              <img src="./images/prod3.png" alt="Shoes" class="rounded-lg" />
             </figure>
             <div class="card-body items-center text-center">
               <div class="rating rating-sm">
@@ -203,13 +206,14 @@
           Sportswear
         </h1>
         <div class="grid md:grid-cols-3 gap-4 my-4">
+          <!-- product four -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-4 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-5 rounded-lg h-4/6">
               <img
-                src="/images/prod4.png"
+                src="./images/prod4.png"
                 alt="product image"
                 class="rounded-lg"
               />
@@ -249,13 +253,14 @@
               <p><span>49.00</span> TK</p>
             </div>
           </div>
+          <!-- product five -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-4 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-5 rounded-lg h-4/6">
               <img
-                src="/images/prod5.png"
+                src="./images/prod5.png"
                 alt="product image"
                 class="rounded-lg"
               />
@@ -296,13 +301,14 @@
               <p><span>69.00</span> TK</p>
             </div>
           </div>
+          <!-- product six -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-4 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-5 rounded-lg h-4/6">
               <img
-                src="/images/prod6.png"
+                src="./images/prod6.png"
                 alt="product image"
                 class="rounded-lg"
               />
@@ -349,13 +355,14 @@
           Furniture
         </h1>
         <div class="grid md:grid-cols-3 gap-4">
+          <!-- product seven -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-5 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-4 rounded-lg h-4/6">
               <img
-                src="/images/prod7.png"
+                src="./images/prod7.png"
                 alt="product image"
                 class="rounded-lg"
               />
@@ -395,13 +402,14 @@
               <p><span>185.00</span> TK</p>
             </div>
           </div>
+          <!-- product eight -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-4 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-5 rounded-lg h-4/6">
               <img
-                src="/images/prod8.png"
+                src="./images/prod8.png"
                 alt="product image"
                 class="rounded-lg"
               />
@@ -442,13 +450,14 @@
               <p><span>299.00</span> TK</p>
             </div>
           </div>
+          <!-- product nine -->
           <div
             onclick="cart(this)"
             class="card bg-white shadow-sm hover:shadow-md duration-200 p-4 cursor-pointer group relative rounded-lg"
           >
             <figure class="px-10 pt-10 bg-gray-100 p-5 rounded-lg h-4/6">
               <img
-                src="/images/prod9.png"
+                src="./images/prod9.png"
                 alt="product image"
                 class="rounded-lg"
               />
@@ -497,7 +506,9 @@
         <!-- coupon form -->
         <div class="bg-white p-6 mt-5 rounded-md max-h-[150px]">
           <h2 class="text-lg font-medium mb-3">Have coupon?</h2>
-          <div class="relative flex rounded-lg group">
+          <div
+            class="relative flex rounded-lg group focus-within:ring-2 focus-within:ring-[#E527B2]"
+          >
             <input
               id="coupon"
               type="text"
